@@ -32,7 +32,7 @@ namespace SportsStore.WebUI.Infrastrucutre
             mock.Setup(m => m.Products).Returns(new List<Product>
             {
                 new Product { Name = "Piłka nożna", Price = 25},
-                new Product { Name = "Deska sufingowa", Price = 179},
+                new Product { Name = "Deska surfingowa", Price = 179},
                 new Product { Name = "Buty do biegania", Price = 95}
             });
 

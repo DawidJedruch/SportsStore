@@ -24,7 +24,13 @@ namespace SportsStore.UnitTests.App_Start
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
             bootstrapper.Initialize(CreateKernel);
         }
-        
+
+        private static void RegisterServices(IKernel kernel)
+        {
+            System.Web.Mvc.DependencyResolver.SetResolver(
+                new SportsStore.WebUI.Infrastructure.NinjectDependencyResolver(kernel));
+        }
+
         /// <summary>
         /// Stops the application.
         /// </summary>
@@ -51,10 +57,6 @@ namespace SportsStore.UnitTests.App_Start
         /// Load your modules or register your services here!
         /// </summary>
         /// <param name="kernel">The kernel.</param>
-        private static void RegisterServices(IKernel kernel)
-        {
-            System.Web.Mvc.DependencyResolver.SetResolver(
-                new SportsStore.WebUI.Infrastructure.NinjectDependencyResolver(kernel));
-        }        
+        
     }
 }
