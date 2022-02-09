@@ -10,7 +10,17 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Różne pliki",
       "ColorIndex": -1
+    },
+    "bff45bfa-af79-4349-b8af-467358d133d1": {
+      "ProjectGuid": "bff45bfa-af79-4349-b8af-467358d133d1",
+      "DisplayName": "SportsStore.Domain",
+      "ColorIndex": 1
+    },
+    "2caf0dfb-3452-434a-8b34-9d7c8da6dec2": {
+      "ProjectGuid": "2caf0dfb-3452-434a-8b34-9d7c8da6dec2",
+      "DisplayName": "SportsStore.UnitTests",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

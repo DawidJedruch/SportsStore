@@ -176,3 +176,8 @@ D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebU
 D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+D:\Programowanie\GITHUB\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
