@@ -39,7 +39,7 @@ namespace SportsStore.WebUI
                 new { page = @"\d+" }
             );
 
-            routes.MapRoute(null, "{controller}/{actoin}");
+            routes.MapRoute(null, "{controller}/{action}");
         }
     }
 }
