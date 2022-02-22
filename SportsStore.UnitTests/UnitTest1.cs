@@ -143,8 +143,7 @@ namespace SportsStore.UnitTests
 
             string categoryToSelect = "Jabłka";
 
-            target.Menu().ViewBag.SelectedCategory = categoryToSelect;
-            string result = target.Menu().ViewBag.SelectedCategory;
+            string result = target.Menu(categoryToSelect).ViewBag.SelectedCategory;
 
             Assert.AreEqual(categoryToSelect, result);
         }

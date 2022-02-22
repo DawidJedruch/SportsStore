@@ -72,7 +72,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IOrderProcessor.cs" />
     <Compile Include="Abstract\IProductRepository.cs" />
+    <Compile Include="Concrete\EmailOrderProcessor.cs" />
     <Compile Include="Concrete\ProductDbContext.cs" />
     <Compile Include="Concrete\ProductRepository.cs" />
     <Compile Include="Entities\Cart.cs" />
