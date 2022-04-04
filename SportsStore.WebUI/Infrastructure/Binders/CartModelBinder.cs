@@ -1,9 +1,4 @@
 ﻿using SportsStore.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Web.Mvc;
 
 namespace SportsStore.WebUI.Infrastructure.Binders

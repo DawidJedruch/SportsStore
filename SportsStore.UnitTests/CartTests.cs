@@ -4,7 +4,6 @@ using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 using SportsStore.WebUI.Controllers;
 using SportsStore.WebUI.Models;
-using System;
 using System.Linq;
 using System.Web.Mvc;
 using static SportsStore.Domain.Entities.Cart;
