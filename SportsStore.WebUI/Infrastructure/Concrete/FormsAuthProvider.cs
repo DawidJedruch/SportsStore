@@ -3,7 +3,7 @@ using System.Web.Security;
 
 namespace SportsStore.WebUI.Infrastructure.Concrete
 {
-    internal class FormsAuthProvider : IAuthProvider
+    public class FormsAuthProvider : IAuthProvider
     {
         public bool Authenticate(string username, string password)
         {
