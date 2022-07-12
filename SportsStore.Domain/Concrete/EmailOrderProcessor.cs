@@ -8,14 +8,14 @@ namespace SportsStore.Domain.Concrete
 {
     public class EmailSettings
     {
-        public string MailToAddress = "zamowienia@przyklad.pl";
-        public string MailFromAddress = "sklepsportowy@przyklad.pl";
+        public string MailToAddress = "dzemikkisiel@gmail.com";
+        public string MailFromAddress = "dzemikkisiel@gmail.com";
         public bool UseSsl = true;
-        public string Username = "UżytkownikSmtp";
-        public string Password = "HasłoSmtp";
-        public string ServerName = "smtp.przyklad.pl";
+        public string Username = "emailsender";
+        public string Password = "lkxhptazzlgajxei";
+        public string ServerName = "smtp.gmail.com";
         public int ServerPort = 587;
-        public bool WriteAsFile = true;
+        public bool WriteAsFile = false;
         public string FileLocation = @"c:\sports_store_emails";
     }
     public class EmailOrderProcessor : IOrderProcessor
@@ -32,9 +32,10 @@ namespace SportsStore.Domain.Concrete
                 smtpClient.EnableSsl = emailSettings.UseSsl;
                 smtpClient.Host = emailSettings.ServerName;
                 smtpClient.Port = emailSettings.ServerPort;
+                smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials
-                = new NetworkCredential(emailSettings.Username, emailSettings.Password);
+                = new NetworkCredential(emailSettings.MailFromAddress, emailSettings.Password);
 
                 if (emailSettings.WriteAsFile)
                 {
