@@ -17,7 +17,6 @@ Application is easy to maintain, it is expandable, organized and great supports 
 * Html
 
 ### Screenshots
-
-![Home](https://user-images.githubusercontent.com/87181585/178679471-62d20ff4-fef8-42dc-bcb6-494e83a8298a.png)
+![Home](https://user-images.githubusercontent.com/87181585/233971506-c37e3bc1-ec1b-46dd-b89d-69bc4b532996.png)
 ![Form](https://user-images.githubusercontent.com/87181585/178679600-cdc180c4-aa16-4a44-8bd9-98855dcdd4d2.png)
 ![Basket](https://user-images.githubusercontent.com/87181585/178679657-c3cbeac8-1369-4ba7-a04f-f756b11073ad.png)
